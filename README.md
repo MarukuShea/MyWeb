@@ -15,14 +15,21 @@ View the project here:
 
 ---
 ## 📂 How to Add or Update Files
-To add new files (like images, student data sheets, or forms) to this project:
 
-1.  Go to the main page of [https://github.com/ycShea/MyWeb](https://github.com/ycShea/MyWeb).
-2.  If this is your first time (i.e. the repository is empty), click **creating a new file**.
-<img width="1235" height="158" alt="createNewFile" src="https://github.com/user-attachments/assets/0c9c8aa5-bb4d-4c9b-8e3e-cadcdf93b7de" />
-3.  Click the **Add file** button at the top right-hand corner of the file list.
-4.  Choose **Create new file** to write code, or **Upload files** to drag and drop from your Windows 10 computer.
-5.  **Save your work:** Click the green **Commit changes...** button at the top right-hand corner, then write a short note about what you changed. Click the green **Commit changes** again to confirm.
+Follow these steps to add new files (like images, student data sheets, or exam forms) to this project:
+
+1. **Access the Repository:** Go to the main page of [https://github.com/ycShea/MyWeb](https://github.com/ycShea/MyWeb).
+2. **First-Time Setup:** If the repository is empty, click the link that says **creating a new file**.
+   
+   <img width="100%" alt="createNewFile" src="https://github.com/user-attachments/assets/0c9c8aa5-bb4d-4c9b-8e3e-cadcdf93b7de" />
+
+3. **Add More Files:** Once the repository is active, click the **Add file** button at the top right-hand corner of the file list.
+4. **Choose Your Method:** * Select **Create new file** to write code (like `index.html`) directly in the browser.
+   * Select **Upload files** to drag and drop files from your computer.
+5. **Save Your Work (Commit):**
+   * Click the green **Commit changes...** button at the top right.
+   * Write a short note describing what you changed (e.g., "Updated exam sheet").
+   * Click the green **Commit changes** button again to confirm.
 
 
 ## 🚀 First-Time Launch Setup
