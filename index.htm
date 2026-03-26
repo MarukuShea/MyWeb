@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interactive Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; background-color: #f4f4f9; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        button { padding: 10px 20px; margin: 10px; cursor: pointer; border: none; border-radius: 5px; background-color: #007bff; color: white; font-size: 16px; }
+        button:hover { background-color: #0056b3; }
+        input { padding: 10px; width: 80%; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px; }
+        #displayText { margin-top: 20px; font-weight: bold; color: #333; }
+        iframe { margin-top: 20px; border: 1px solid #ddd; border-radius: 8px; }
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>My Project Dashboard</h1>
+
+    <input type="text" id="userInput" placeholder="Type something here...">
+    <br>
+
+    <button onclick="playVideo()">1. Play YouTube</button>
+    <button onclick="showLargeText()">2. Show Large Text</button>
+    <button onclick="openSpreadsheet()">3. Open Spreadsheet</button>
+
+    <div id="displayText"></div>
+
+    <div id="videoContainer" class="hidden">
+        <iframe id="ytPlayer" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <hr>
+
+    <h3>Embedded Google Spreadsheet</h3>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSXXXXXXXXX/pubhtml?widget=true&amp;headers=false" width="100%" height="500"></iframe>
+</div>
+
+<script>
+    function playVideo() {
+        const videoId = "dQw4w9WgXcQ"; // Replace with your YouTube Video ID
+        const player = document.getElementById('ytPlayer');
+        const container = document.getElementById('videoContainer');
+        
+        player.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+        container.classList.remove('hidden');
+    }
+
+    function showLargeText() {
+        const input = document.getElementById('userInput').value;
+        const display = document.getElementById('displayText');
+        display.innerHTML = input;
+        display.style.fontSize = "50px"; // Large font size
+    }
+
+    function openSpreadsheet() {
+        // Replace with your actual Google Sheet URL
+        window.open("https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID_HERE/edit", "_blank");
+    }
+</script>
+
+</body>
+</html>
