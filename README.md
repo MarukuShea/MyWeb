@@ -1,4 +1,4 @@
-# My Interactive Web Dashboard 🚀
+<img width="1235" height="158" alt="createNewFile" src="https://github.com/user-attachments/assets/41709f4a-3df7-4d45-98f6-0a3f075ce8f3" /># My Interactive Web Dashboard 🚀
 
 This is a static website hosted on **GitHub Pages** that allows for basic user interaction and Google Spreadsheet integration.
 
@@ -14,6 +14,15 @@ View the project here:
 [https://ycShea.github.io/MyWeb/](https://ycShea.github.io/MyWeb/)
 
 ---
+## 📂 How to Add or Update Files
+To add new files (like images, student data sheets, or forms) to this project:
+
+1.  Go to the main page of [https://github.com/ycShea/MyWeb](https://github.com/ycShea/MyWeb).
+2.  If this is your first time (i.e. the repository is empty), click **creating a new file**.
+<img width="1235" height="158" alt="createNewFile" src="https://github.com/user-attachments/assets/0c9c8aa5-bb4d-4c9b-8e3e-cadcdf93b7de" />
+3.  Click the **Add file** button at the top right-hand corner of the file list.
+4.  Choose **Create new file** to write code, or **Upload files** to drag and drop from your Windows 10 computer.
+5.  **Save your work:** Click the green **Commit changes...** button at the top right-hand corner, then write a short note about what you changed. Click the green **Commit changes** again to confirm.
 
 ## 🚀 First-Time Launch Setup
 If the website is not appearing at your link yet, follow these steps to "turn it on":
@@ -27,14 +36,6 @@ If the website is not appearing at your link yet, follow these steps to "turn it
     * Ensure the folder is set to `/(root)`.
 5.  Click **Save**.
 6.  **Wait 1-2 minutes.** Refresh the page until a bar appears saying: *"Your site is live at..."*
-
-## 📂 How to Add or Update Files
-To add new files (like images, student data sheets, or forms) to this project:
-
-1.  Go to the main page of [https://github.com/ycShea/MyWeb](https://github.com/ycShea/MyWeb).
-2.  Click the **Add file** button at the top right-hand corner of the file list.
-3.  Choose **Create new file** to write code, or **Upload files** to drag and drop from your Windows 10 computer.
-4.  **Save your work:** Scroll down, write a short note about what you changed, and click the green **Commit changes** button.
 
 ## ⚙️ How to Change Website Content
 To update the YouTube video ID or the Spreadsheet link inside the code:
