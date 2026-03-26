@@ -1,4 +1,4 @@
-<img width="1235" height="158" alt="createNewFile" src="https://github.com/user-attachments/assets/41709f4a-3df7-4d45-98f6-0a3f075ce8f3" /># My Interactive Web Dashboard 🚀
+# My Interactive Web Dashboard 🚀
 
 This is a static website hosted on **GitHub Pages** that allows for basic user interaction and Google Spreadsheet integration.
 
